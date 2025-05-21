@@ -14,11 +14,13 @@ public class Arraylist_listaint {
 			nums.add(num);
 		}
 		
+		System.out.println("Lista original:\n");
+		
 		System.out.println(nums);
 		
 		System.out.println("\nLista modificada:\n");
 		
-		nums.remove(4);
+		nums.remove(3);
 		
 		System.out.println(nums);
 	}
